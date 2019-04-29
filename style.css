@@ -1,0 +1,29 @@
+.card {
+    position: relative;
+    border: 1px solid black;
+    width: 150px;
+    height: 200px;
+}
+
+.parallax-window {
+    min-height: 500px;
+    background: transparent;
+}
+
+#list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+}
+
+#check {
+    border: 1px solid black;
+    width: 500px;
+    height: 500px;
+
+}
