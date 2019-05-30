@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CanvasJS Chart jQuery Plugin</title>
+<script type="text/javascript" src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>  
+<script type="text/javascript" src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>  
+<script type="text/javascript">
+$(function () {
+	$("#chartContainer").CanvasJSChart({ //Pass chart options
+		data: [
+		{
+		type: "splineArea", //change it to column, spline, line, pie, etc
+		dataPoints: [
+			{ x: 10, y: 10 },
+			{ x: 20, y: 14 },
+			{ x: 30, y: 18 },
+			{ x: 40, y: 22 },
+			{ x: 50, y: 18 },
+			{ x: 60, y: 28 }
+		]
+	}
+	]
+});
+
+});
+</script>
+</head>
+<body>
+<div id="chartContainer" style="width:100%; height:300px;"></div>
+</body>
+</html>
